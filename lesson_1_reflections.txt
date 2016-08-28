@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Mostly HTML continues to work even when the files are corrupted by some changes. So it allows me to think about those changes that disturb the files. This indeed prevents me from altering the entire file. 
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It enables me to compare between the broken code and the working code. By so doing i know exactly where the bug is. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+It goes without saying that versions which are saved automatically demands less effort but still it leaves me in a doubt that working version might not be saved. The difficulty arises when i compare the two versions (working and broken)--the former may not be there when i need it. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Mostly it so happens that the files in the code depend on one another. This means that a change in one file might disturb the other. So under this situation it'd be wise to group the entire change into one commit. Rarely though if the coding files are independent then it'd be a mammoth task to search those files individually.  If I happen to change two unrelated files, then committed the changes together, it would be very difficult to get back to a previous version of one file without reverting to a previous version of
+another, which I probably wouldn't want to do. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+I use git log when we are looking for specific commits in a project. For instance project's name, date, history and etc. It allows me to observe improtant changes being made in the project. Besides, the git log also enables me to go through the project-changes rather quickly. 
+
+On the contrary if i must compare the changes of the current commit with that of the earlier one, i'll use git diff. It gives me an inside knowledge of a commit and not merely a simple overview.   
+
+How might using version control make you more confident to make changes that
+could break something?
+
+The version control is highly flexible in that it allows me to make changes in multiple versions. I can experiment things in a way i want without hesitating and with a what-if attitude. I know if i do something wrong with the current version i can revert back to the previous version. The version control also enables me to point out where the code breaks. There is no need to remember those faulty coding.  
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I am going to use Git not only for these reflections but also to search many documents which i'll create during this FEND course. More importantly i'll be using Git for my resume. In a nutshell Git is stuiable for storing all the Web-development projects.
